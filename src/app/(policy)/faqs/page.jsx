@@ -1,176 +1,161 @@
-
 import React from "react";
 import { Headset, Rows, Zap, ShieldCheck, MessageCircle } from "lucide-react";
 import Template from "@/components/global/template";
 
 export const metadata = {
-  title: "FAQ - FoodSnap.in",
+  title: "FAQ - Kravy",
   description:
-    "Find answers to common questions about using FoodSnap.in — from subscriptions, image approvals, usage rights, to support.",
+    "Find answers to common questions about using Kravy — from account setup, billing, product management, notifications, to support.",
   keywords: [
-    "FoodSnap",
+    "Kravy",
     "FAQ",
-    "Food images",
-    "Swiggy",
-    "Zomato",
-    "Subscription",
-    "Commercial use",
+    "Retail billing software",
+    "POS",
+    "Invoices",
+    "Notifications",
     "Support",
   ],
-  authors: [{ name: "FoodSnap Team", url: "https://foodsnap.in" }],
+  authors: [{ name: "Kravy Team", url: "https://kravy.in" }],
   openGraph: {
-    title: "FAQ - FoodSnap.in",
+    title: "FAQ - Kravy",
     description:
-      "Find answers to common questions about using FoodSnap.in — from subscriptions, image approvals, usage rights, to support.",
-    url: "https://foodsnap.in/faq",
-    siteName: "FoodSnap.in",
+      "Find answers to common questions about using Kravy — from account setup, billing, product management, notifications, to support.",
+    url: "https://kravy.in/faq",
+    siteName: "Kravy",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "FAQ - FoodSnap.in",
+    title: "FAQ - Kravy",
     description:
-      "Find answers to common questions about using FoodSnap.in — from subscriptions, image approvals, usage rights, to support.",
+      "Find answers to common questions about using Kravy — from account setup, billing, product management, notifications, to support.",
   },
 };
 
 const cardData = [
   {
-    title: "What is FoodSnap.in?",
-    description: "FoodSnap.in is a curated image library for food businesses.",
+    title: "What is Kravy?",
+    description:
+      "Kravy is a complete billing and inventory management software for small businesses.",
     icon: <Rows className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        FoodSnap.in is an online subscription platform where you can download
-        high-quality food images that are pre-approved by Swiggy and Zomato.
-        Perfect for restaurant menus, delivery platforms, and promotional use.
+        Kravy is an all-in-one platform for retailers to manage billing,
+        track products, generate invoices, and communicate with customers. Ideal
+        for shops, pharmacies, FMCG stores, and small businesses.
       </>
     ),
   },
   {
-    title: "How do I get started with FoodSnap?",
+    title: "How do I get started with Kravy?",
     description:
-      "Just subscribe and start downloading instantly — no approval needed.",
+      "Sign up and start managing your shop instantly — no complex setup.",
     icon: <Zap className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        Visit <strong>www.foodsnap.in</strong>, subscribe to our monthly plan
-        for ₹999, and start exploring and downloading unlimited food images
-        instantly. No waiting, no approvals — all images are ready to use.
+        Visit <strong>www.kravy.in</strong>, create an account, add your
+        products and start billing. Our simple interface ensures you are ready
+        in minutes.
       </>
     ),
   },
   {
-    title: "Are images approved by Swiggy and Zomato?",
+    title: "Can I manage multiple shops?",
     description:
-      "Yes — all images meet marketplace standards for food listings.",
+      "Yes — Kravy allows you to manage multiple outlets under one account.",
     icon: <ShieldCheck className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        Absolutely. All images on FoodSnap.in are curated and pre-approved for
-        use on Swiggy and Zomato. You can use them for menu listings, banners,
-        and promotions without worrying about platform rejection.
+        Add multiple organizations or outlets and switch between them without
+        logging out. Keep track of sales and inventory for all your shops in one
+        place.
       </>
     ),
   },
   {
-    title: "Can I request a specific dish image?",
-    description: "Yes, you can submit a request and we'll add it to the queue.",
+    title: "How can I invite my staff?",
+    description: "Invite staff members and assign roles with access control.",
     icon: <MessageCircle className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        Missing a dish? No problem. Just send a request to{" "}
-        <a
-          href="mailto:report@foodsnap.in"
-          className="text-blue-600 dark:text-blue-400 hover:underline"
-        >
-          report@foodsnap.in
-        </a>
-        . We aim to upload requested dishes within 48–72 hours.
+        Owners can invite staff via email and assign roles like Admin, Manager,
+        or Cashier. Role-based access prevents misuse and ensures
+        accountability.
       </>
     ),
   },
   {
-    title: "What is the pricing for FoodSnap?",
-    description: "Flat ₹999/month for unlimited downloads.",
+    title: "How do I manage my products?",
+    description: "Easily add, edit, and track your products.",
+    icon: <Rows className="w-6 h-6 text-green-500" />,
+    content: (
+      <>
+        Add product details including name, price, category, stock, and images.
+        Bulk import/export is supported via Excel/CSV for faster management.
+      </>
+    ),
+  },
+  {
+    title: "Can I generate invoices?",
+    description: "Yes — create GST-compliant invoices quickly.",
+    icon: <ShieldCheck className="w-6 h-6 text-green-500" />,
+    content: (
+      <>
+        Generate PDF invoices instantly for any sale. Share invoices with
+        customers via WhatsApp or Email for easy record-keeping.
+      </>
+    ),
+  },
+  {
+    title: "Does Kravy send notifications?",
+    description: "Keep your customers and staff informed automatically.",
     icon: <Zap className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        We offer a simple subscription plan: ₹999/month for unlimited food image
-        downloads. No hidden fees, no download caps. Cancel anytime.
+        Customers can receive WhatsApp notifications for bills, offers, or
+        payment reminders. Shop owners get low-stock alerts and daily sales
+        summaries.
+      </>
+    ),
+  },
+  {
+    title: "What are the pricing plans?",
+    description: "Affordable monthly plans for small businesses.",
+    icon: <Rows className="w-6 h-6 text-green-500" />,
+    content: (
+      <>
+        We offer simple subscription plans starting at ₹999/month. Plans include
+        unlimited billing, product management, and notifications. No hidden
+        fees.
       </>
     ),
   },
   {
     title: "Can I cancel anytime?",
-    description: "Yes, you can cancel your subscription whenever you like.",
-    icon: <Rows className="w-6 h-6 text-green-500" />,
-    content: (
-      <>
-        You’re free to cancel your subscription at any time from your account
-        dashboard. Your access will continue until the end of your billing
-        cycle.
-      </>
-    ),
-  },
-  {
-    title: "What file formats do you provide?",
-    description: "All images are high-res JPEGs suitable for web & app use.",
+    description: "Yes, subscriptions are flexible and cancellable anytime.",
     icon: <ShieldCheck className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        All images are provided in high-resolution JPEG format, optimized for
-        both web and mobile platforms. Perfect for listings, menus, and
-        marketing.
+        You can cancel your subscription at any time. Access will remain active
+        until the end of the billing cycle.
       </>
     ),
   },
   {
-    title: "Can I use these images for ads or banners?",
-    description: "Yes, commercial use is allowed for all subscribers.",
-    icon: <Zap className="w-6 h-6 text-green-500" />,
-    content: (
-      <>
-        Yes! As a subscriber, you can use the images in ads, marketing
-        creatives, banners, menus, social media posts, and more — as long as
-        you're an active member.
-      </>
-    ),
-  },
-  {
-    title: "Do you offer refunds?",
-    description: "We currently do not offer refunds after image access.",
-    icon: <ShieldCheck className="w-6 h-6 text-green-500" />,
-    content: (
-      <>
-        Since this is a digital product with instant access, we do not offer
-        refunds once your subscription is active. You can cancel to stop future
-        billing.{" "}
-        <a
-          href="/refund-policy"
-          className="text-blue-600 dark:text-blue-400 hover:underline"
-        >
-          View refund policy
-        </a>
-        .
-      </>
-    ),
-  },
-  {
-    title: "What if I need support or have issues?",
-    description: "Our team is available via email for any assistance.",
+    title: "How do I get support?",
+    description: "Our support team is available via email for assistance.",
     icon: <MessageCircle className="w-6 h-6 text-green-500" />,
     content: (
       <>
-        If you face any issues with downloads, billing, or usage, feel free to
-        contact us at{" "}
+        Contact us at{" "}
         <a
-          href="mailto:support@foodsnap.in"
+          href="mailto:support@kravy.in"
           className="text-blue-600 dark:text-blue-400 hover:underline"
         >
-          support@foodsnap.in
-        </a>
-        . We usually reply within 24 hours.
+          support@kravy.in
+        </a>{" "}
+        for any issues with billing, products, or notifications. We typically
+        respond within 24 hours.
       </>
     ),
   },
@@ -179,28 +164,20 @@ const cardData = [
 const contactData = {
   title: "Still Have Questions?",
   description:
-    "We’re happy to help you make the most of FoodSnap. Reach out anytime.",
+    "We’re here to help you get the most out of Kravy. Reach out anytime.",
   content: (
     <div>
       <p className="mb-4">
-        Whether you need a custom dish image, account help, or advice on using
-        FoodSnap images effectively — we’re here for you.
+        Whether you need help setting up your shop, managing products, or
+        understanding notifications — our team is ready to assist.
       </p>
       <p>
         Email:{" "}
         <a
-          href="mailto:support@foodsnap.in"
+          href="mailto:support@kravy.in"
           className="text-blue-600 dark:text-blue-400 hover:underline"
         >
-          support@foodsnap.in
-        </a>
-        <br />
-        Requests:{" "}
-        <a
-          href="mailto:report@foodsnap.in"
-          className="text-blue-600 dark:text-blue-400 hover:underline"
-        >
-          report@foodsnap.in
+          support@kravy.in
         </a>
         <br />
         Location: New Delhi, India
@@ -216,12 +193,12 @@ const page = () => {
       heading={
         <div>
           FAQs About <br className="hidden sm:block" />
-          FoodSnap.in
+          Kravy
         </div>
       }
-      description="Find answers to common questions about using our food image library — from subscriptions to usage rights."
+      description="Find answers to common questions about using Kravy — from account setup, billing, product management, notifications, to support."
       ctaDescription="Can’t find what you're looking for? Reach out and we’ll help you right away."
-      ctaLink="/report-issue"
+      ctaLink="/contact"
       ctaButton={
         <span className="flex items-center gap-2">
           <Headset className="w-4 h-4" />
