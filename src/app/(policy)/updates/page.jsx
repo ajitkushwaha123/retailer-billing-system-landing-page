@@ -1,14 +1,17 @@
 "use client";
 
 import React from "react";
+import { motion } from "framer-motion";
 import {
-  Rows,
   Zap,
+  Rows,
   ShieldCheck,
   MessageCircle,
-  Bell,
   FileText,
+  Bell,
   Wallet,
+  BarChart2,
+  Users,
 } from "lucide-react";
 import Template from "@/components/global/template";
 
@@ -199,6 +202,32 @@ const updates = [
       <>
         Customers can earn loyalty points on each purchase, redeem them for
         discounts, and use an in-app wallet for faster checkout.
+      </>
+    ),
+  },
+  {
+    title: "November 16, 2025 – Sales & Inventory Forecasting",
+    description:
+      "Predict future sales and stock requirements using ARIMA model.",
+    status: "upcoming",
+    icon: <BarChart2 className="w-6 h-6 text-yellow-500" />,
+    content: (
+      <>
+        Retailers will be able to forecast sales and inventory using ARIMA-based
+        predictive models, helping reduce stockouts and overstock situations.
+      </>
+    ),
+  },
+  {
+    title: "November 23, 2025 – Advanced Customer Management",
+    description: "Manage customers, track purchase history, and segment them.",
+    status: "upcoming",
+    icon: <Users className="w-6 h-6 text-yellow-500" />,
+    content: (
+      <>
+        Keep detailed customer records, track their purchases, assign loyalty
+        tiers, and send targeted promotions to increase engagement and
+        retention.
       </>
     ),
   },
