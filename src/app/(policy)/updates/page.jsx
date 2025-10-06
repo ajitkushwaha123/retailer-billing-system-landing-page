@@ -37,7 +37,7 @@ const updates = [
   {
     title: "August 24, 2025 – Dashboard Launched",
     description: "A central hub to manage billing, products, and reports.",
-    status: "done",
+    status: "in-progress",
     icon: <Rows className="w-6 h-6 text-green-500" />,
     image: "/assets/updates/dashboard.png",
     content: (
@@ -102,7 +102,7 @@ const updates = [
   {
     title: "September 21, 2025 – Product Management",
     description: "Manage your product catalog with images and bulk upload.",
-    status: "done",
+    status: "in-progress",
     icon: <Rows className="w-6 h-6 text-green-500" />,
     image: "/assets/updates/product.jpeg",
     content: (
@@ -118,7 +118,7 @@ const updates = [
   {
     title: "September 28, 2025 – Billing & Cart System",
     description: "Seamless billing with cart, discounts, and GST support.",
-    status: "done",
+    status: "in-progress",
     icon: <ShieldCheck className="w-6 h-6 text-green-500" />,
     image: "/assets/updates/billing.jpeg",
     content: (
